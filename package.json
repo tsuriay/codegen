@@ -1,0 +1,18 @@
+{
+  "name": "codegen",
+  "version": "0.1.0",
+  "description": "",
+  "main": "codegen.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node codegen.ts",
+    "clean": "rm codegen-output.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-morph": "^14.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
